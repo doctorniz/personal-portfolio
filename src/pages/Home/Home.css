@@ -1,0 +1,36 @@
+.homePage {
+    background: linear-gradient(
+        rgba(255, 236, 179, 0.75), 
+        rgba(255, 236, 179, 0.75)
+      ), url('../../images/harbourbridge.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    font-size: 4.0rem;
+}
+
+.menuBar {
+    display:grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#codeInput {
+    width: 100px;
+    justify-self: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.socialMedia {
+    display:grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    align-content: center;
+}

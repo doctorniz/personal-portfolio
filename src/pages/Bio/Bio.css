@@ -1,0 +1,12 @@
+.bioPage {
+    background: linear-gradient(
+        rgba(255, 236, 179, 0.45), 
+        rgba(255, 236, 179, 0.45)
+      ), url('../../images/harbourbridge.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-content: center;
+}
