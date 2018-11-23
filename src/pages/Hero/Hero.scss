@@ -67,21 +67,3 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-$hero-avatar-size: 200px;
-
-.hero-avatar {
-    height:$hero-avatar-size;
-    width:$hero-avatar-size;
-    overflow:hidden;
-    position: absolute;
-    top: calc(50% - #{$hero-avatar-size/2});
-    right: calc(20px + 10%);
-    border-radius: 50%;
-
-}
-
-.hero-avatar img {
-    max-height: 100%;
-    margin: 0 auto;
-    display: block;
-}

@@ -1,0 +1,14 @@
+.contactPage {
+    height:100%;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: [start-col]40px [v1] 2fr [v2] 2fr [v3] 40px[end-col];
+    grid-template-rows: [start-row] 100px [h1] 150px [h2] 1fr [h3] 100px [end-row];
+   /*  grid-template-areas: "...."
+                        ". pageheader pageheader ."
+                        "...."
+                        "...."; */
+}
+
+
+

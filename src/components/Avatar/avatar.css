@@ -1,0 +1,10 @@
+.pageAvatar {
+    height: 200px;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: auto;
+}
+

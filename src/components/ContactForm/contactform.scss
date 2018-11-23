@@ -1,0 +1,26 @@
+
+
+.contactForm {
+    grid-column: v2 / span 1;
+    grid-row: h2 / span 1;
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows: auto;
+    background: red;
+    border-radius: 5%;
+    padding: 20px 10px;
+    margin: 0 0 0 20px;
+    input {
+        padding: 5px;
+        height: 20px;
+    }
+    textarea {
+        padding: 10px;
+        height: 60%;
+    }
+    button {
+        margin: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
