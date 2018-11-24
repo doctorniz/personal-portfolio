@@ -8,7 +8,6 @@ import Journey from './pages/Journey';
 import Works from './pages/Works';
 import Contact from './pages/Contact';
 
-import Bio from './pages/Bio';
 
 import './App.css';
 
@@ -33,28 +32,17 @@ export default () => {
 			/>
 			<Hero />
 			<Switch>
-				<Route exact path="/" render={() => <About bioType="ALL" />} />
-				<Route path="/doctor" render={() => <About bioType="MED" />} />
-				<Route path="/developer" render={() => <About bioType="IT" />} />
+			<Route path="/@:path" render={()=> null} />
+			<Route path="/:path?" render={({params}) => (
+				<>
+					<About  params={params} />
+					<Journey params={params} />
+					<Works params={params} />
+				</>
+			)} />
 			</Switch>
-
-			<Switch>
-				<Route exact path="/" render={() => <Journey bioType="ALL" />} />
-				<Route path="/doctor" render={() => <Journey bioType="MED" />} />
-				<Route path="/developer" render={() => <Journey bioType="IT" />} />
-			</Switch>
-
-			<Switch>
-				<Route exact path="/" render={() => <Works bioType="ALL" />} />
-				<Route path="/doctor" render={() => <Works bioType="MED" />} />
-				<Route path="/developer" render={() => <Works bioType="IT" />} />
-			</Switch>
-
-			<Switch>
-				<Route exact path="/" render={() => <Bio bioType="ALL" />} />
-				<Route path="/doctor" render={() => <Bio bioType="MED" />} />
-				<Route path="/developer" render={() => <Bio bioType="IT" />} />
-			</Switch>
+			
+			
 
 			<Contact />
 		</div>

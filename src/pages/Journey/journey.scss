@@ -1,0 +1,19 @@
+.journeyContainer {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: [start-col]40px [v1] 2fr [v2] 2fr [v3] 40px[end-col];
+    grid-template-rows: [start-row] 100px [h1] 100px [h2] 200px [h3] 1fr [h4] 100px [end-row];
+    text-align: center;
+    
+    .journeyTimeline {
+        margin: auto 0;
+        grid-column: v1 / span 2;
+        grid-row: h2 / span 1;
+    }
+
+    .journeyParagraph {
+        grid-column: v1 / span 2;
+        grid-row: h3 / span 1;
+    }
+}

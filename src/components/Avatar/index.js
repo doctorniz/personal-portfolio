@@ -3,16 +3,16 @@ import './avatar.css';
 
 const Avatar = props => {
 	return (
-		<div className="pageAvatar"
+		<div
+			className="pageAvatar"
 			style={{
-				background:`url(${props.avatar})`,
+				background: `url(${props.avatar})`,
 				backgroundSize: 'cover',
 				backgroundPosition: 'center',
 				backgroundRepeat: 'no-repeat',
 				...props.style
 			}}
-		>
-		</div>
+		/>
 	);
 };
 

@@ -1,0 +1,20 @@
+.worksPage {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: [start-col]40px [v1] 2fr [v2] 2fr [v3] 40px[end-col];
+    grid-template-rows: [start-row] 100px [h1] 100px [h2] 50px [h3] 1fr [h4] 100px [end-row];
+    
+
+    .portfolioGrid {
+        grid-column: v1 / span 1;
+        grid-row: h3 / span 1;
+        cursor: pointer;
+    }
+
+    .worksParagraph {
+        grid-column: v2 / span 1;
+        grid-row: h3 / span 1;
+    }
+}

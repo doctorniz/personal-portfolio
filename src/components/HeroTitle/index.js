@@ -35,7 +35,7 @@ const spanStyle = (i, n) => {
 		justifySelf: 'center',
 		alignSelf: 'center',
 		textAlign: 'right',
-		marginRight: `${(n / j) * 40 + 10}px`,
+		marginRight: `${(n / (n-i)) * 40 + 10}px`,
 		fontSize: `${7 / n + 4}rem`
 	};
 };

@@ -1,0 +1,19 @@
+.portfolioGrid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(auto-fit, 100px);
+    grid-gap: 20px;
+    overflow-y: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.portfolioBox {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: aquamarine;
+
+}

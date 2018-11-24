@@ -17,14 +17,12 @@ const Hero = props => {
 
 	return (
 		<Background backgroundUrl={backgroundUrl}>
-		<div id="Hero" className="hero-container">
-			
-			<HeroTitle text={['Nizar', '/', 'Ismail']} />
-			<HeroHandle text={'@doctorniz'} />
-			<HeroTagline tagline="doctor · entrepneur · developer" />
-		</div>
+			<div id="Hero" className="hero-container">
+				<HeroTitle text={['Nizar', '/', 'Ismail']} />
+				<HeroHandle text={'@doctorniz'} />
+				<HeroTagline tagline="doctor · entrepneur · developer" />
+			</div>
 		</Background>
-
 	);
 };
 

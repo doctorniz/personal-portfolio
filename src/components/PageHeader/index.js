@@ -1,11 +1,8 @@
 import React from 'react';
-import './pageheader.css'
+import './pageheader.css';
 
 const PageHeader = props => {
+	return <div className="pageHeader">{props.title}</div>;
+};
 
-    return (<div className="pageHeader">
-            {props.title}
-        </div>)
-}
-
-export default PageHeader
+export default PageHeader;
